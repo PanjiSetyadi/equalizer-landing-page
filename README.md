@@ -11,22 +11,49 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-### Screenshot
+## Getting Started
 
-![Design Preview](./preview.jpg)
+Follow these steps to run the project locally.
 
-## My Process
+### Prerequisites
 
-### Built With
+- Node.js 18.17 or higher (built and tested with Node.js 22)
+- npm
 
-- [Next.js](https://nextjs.org/) - React Framework
-- [React](https://reactjs.org/) - JS Library
-- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
-- TypeScript
+### Installation
 
-### What I Learned
+```bash
+# 1. Clone the repository
+git clone https://github.com/PanjiSetyadi/equalizer-landing-page
 
-During this project, I focused on implementing precise pixel-perfect layout positioning using Tailwind CSS utility classes, specifically handling absolute positioning and complex overlap designs across mobile, tablet, and desktop breakpoints.
+# 2. Navigate into the project directory
+cd equalizer-landing-page
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+### Available Scripts
+
+| Command         | Description                           |
+| --------------- | ------------------------------------- |
+| `npm run dev`   | Starts the development server         |
+| `npm run build` | Creates an optimized production build |
+| `npm run start` | Serves the production build locally   |
+| `npm run lint`  | Runs ESLint to check the code         |
+
+## Technologies Used
+
+- **Next.js 16** - React framework (App Router)
+- **React 19** - UI library
+- **TypeScript** - Typed JavaScript
+- **Tailwind CSS 4** - Utility-first CSS framework
+- **next/font** - Self-hosted Google Fonts (IBM Plex Sans)
 
 ## Author
 
